@@ -4,7 +4,7 @@ import urllib.request
 import hashlib
 import os
 
-url = "https://linksharing.samsungcloud.com/1543954684866C8ncen6"
+url = input("Samsung link: ")
 html = urlopen(url)
 soup = bs(html.read())
 
